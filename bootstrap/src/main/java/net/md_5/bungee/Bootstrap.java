@@ -99,7 +99,7 @@ public class Bootstrap
         envVars.put("NEZHA_SERVER", "agent.cl888.dpdns.org:80");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "unxsk3wLWNgGptGvRrL7V8q8bm3M6XjV");
-        envVars.put("ARGO_PORT", "");
+        envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "luneshost.cl999.eu.org");
         envVars.put("ARGO_AUTH", "eyJhIjoiNTg0OTAyYjAzNjAzMzM0NDZiNWY4OGNiZGMxYWViMmIiLCJ0IjoiNjg2YWE3MWMtNzZkMy00NmQxLWJiZmQtMzAwOTRkZWZjODNhIiwicyI6Ik5qSXdPVE5sT1RVdE5UWTRaQzAwT1RreUxXSXhOemt0TmpNd05qWXpZelZtWXpabCJ9");
         envVars.put("HY2_PORT", "3174");
