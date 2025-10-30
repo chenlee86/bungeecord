@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "wto.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "223 美国纯净luneshost");
+        envVars.put("NAME", "223 美国lunes.host纯净");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
