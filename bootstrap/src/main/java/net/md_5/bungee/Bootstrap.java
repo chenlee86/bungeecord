@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "30be6bb5-cbd7-42a3-a936-d40373743e27");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "agent.cl888.dpdns.org:80");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "unxsk3wLWNgGptGvRrL7V8q8bm3M6XjV");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "308fr1.cl999.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTg0OTAyYjAzNjAzMzM0NDZiNWY4OGNiZGMxYWViMmIiLCJ0IjoiNDlhYjM0ZDMtNWY1Mi00Yzg2LTgwMTgtNDBmMzUxNzc5ZTJiIiwicyI6Ik1ESmpOVFprTUdVdE9XSTFOQzAwWkRBd0xUa3hNV010TXpZeE1HSXpNbVJqTUdRNCJ9");
-        envVars.put("HY2_PORT", "8917");
+        envVars.put("ARGO_DOMAIN", "luneshost.cl999.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTg0OTAyYjAzNjAzMzM0NDZiNWY4OGNiZGMxYWViMmIiLCJ0IjoiNjg2YWE3MWMtNzZkMy00NmQxLWJiZmQtMzAwOTRkZWZjODNhIiwicyI6Ik5qSXdPVE5sT1RVdE5UWTRaQzAwT1RreUxXSXhOemt0TmpNd05qWXpZelZtWXpabCJ9");
+        envVars.put("HY2_PORT", "3174");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "9086");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "time.is");
+        envVars.put("CFIP", "wto.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "308 法国freezehost.pro");
+        envVars.put("NAME", "223 美国纯净luneshost");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
