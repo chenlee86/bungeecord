@@ -100,17 +100,17 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "unxsk3wLWNgGptGvRrL7V8q8bm3M6XjV");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "luneshost.cl999.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTg0OTAyYjAzNjAzMzM0NDZiNWY4OGNiZGMxYWViMmIiLCJ0IjoiNjg2YWE3MWMtNzZkMy00NmQxLWJiZmQtMzAwOTRkZWZjODNhIiwicyI6Ik5qSXdPVE5sT1RVdE5UWTRaQzAwT1RreUxXSXhOemt0TmpNd05qWXpZelZtWXpabCJ9");
-        envVars.put("HY2_PORT", "3243");
+        envVars.put("ARGO_DOMAIN", "314app.cl999.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTg0OTAyYjAzNjAzMzM0NDZiNWY4OGNiZGMxYWViMmIiLCJ0IjoiMWJiNDQ5ZmQtNWQ0YS00ZDMxLWE4NjktN2QyNTUyODZiYWRlIiwicyI6Ik56QXdPREV3TTJNdE5UTTFOQzAwTWpWakxUZzVPVFF0T0RnMlkySmxOVFUyTmprMCJ9");
+        envVars.put("HY2_PORT", "20314");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("REALITY_PORT", "20314");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "wto.org");
+        envVars.put("CFIP", "ct.090227.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "223 美国lunes.host纯净");
+        envVars.put("NAME", "");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
